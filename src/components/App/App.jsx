@@ -8,9 +8,25 @@ import Footer from "../Footer/Footer";
 
 
 function App() {
+
+    const [openSnackBar, setOpenSnackBar] = React.useState(false);
+
+    const action = 'JustStringYet';
+
+    const handleCloseSnackBar = () => {
+
+    };
+
+    const handleCLickSnackBar = () => {
+        setOpenSnackBar(true);
+    };
     return (
         <div className="App">
-            < Header/>
+            < Header
+                handleClick={handleCLickSnackBar}
+                open={openSnackBar}
+                handleClose={handleCloseSnackBar}
+                action={action}/>
             < SearchForm/>
             < PosterList/>
             < ResultList/>

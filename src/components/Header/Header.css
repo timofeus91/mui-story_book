@@ -1,0 +1,16 @@
+.header {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
