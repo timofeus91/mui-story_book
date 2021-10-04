@@ -10,7 +10,6 @@ import {posters} from "../../utils/posters";
 
 
 function App() {
-    console.log(posters);
     const [openSnackBar, setOpenSnackBar] = React.useState(false);
     const [postersArray, setPostersArray] = React.useState([]);
     const [posterTitleText, setPosterTitleText] = React.useState('');
@@ -27,7 +26,7 @@ function App() {
         } else {
             setPosterTitleText('Прости, но такого постера тут нет');
         }
-    });
+    },[postersArray]);
 
     const handleChange = (e) => {
         if (!e.target.value) {
@@ -41,15 +40,7 @@ function App() {
                 poster.name.toLowerCase().includes(e.target.value.toLowerCase())
             ));
     };
-    /*
-        const handleCloseSnackBar = () => {
-            setOpenSnackBar(false);
-        };
 
-
-        const handleCLickSnackBar = () => {
-            setOpenSnackBar(true);
-        }; */
 
     const handleToggleSnackBar = () => {
         if (openSnackBar) {

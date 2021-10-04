@@ -17,8 +17,8 @@ function Footer() {
                                                                    href="https://github.com/timofeus91" rel="noreferrer"
                                                                    target="_blank">Github</a></li>
                         <li className="footer__navigation-item"><a className="footer_link"
-                                                                   href="https://www.facebook.com/timofey.berezhnov/"
-                                                                   rel="noreferrer" target="_blank">Facebook</a></li>
+                                                                   href="https://www.linkedin.com/in/timofeus91/"
+                                                                   rel="noreferrer" target="_blank">Linkedin</a></li>
                     </ul>
                 </nav>
             </div>
