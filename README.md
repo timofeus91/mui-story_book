@@ -41,4 +41,8 @@ And after that we can run it locally through
 
 Have a nice day! I would be glad to receive any feedback.
 
-telegram: @timofeus91  email: timofeus91@gmail.com  linkedin: https://www.linkedin.com/in/timofeus91/
+telegram: @timofeus91
+
+email: timofeus91@gmail.com
+
+linkedin: https://www.linkedin.com/in/timofeus91/
