@@ -23,6 +23,7 @@
 .footer__container {
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
 }
 
 .footer__subtitle {

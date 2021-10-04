@@ -5,7 +5,19 @@ import App from "./components/App/App";
 import {createTheme, ThemeProvider} from "@material-ui/core";
 
 const theme = createTheme({
-    spacing:1
+    spacing:1,
+    palette: {
+        primary: {
+            main: '#61dafb'
+        },
+        secondary: {
+            main: '#00ff00'
+        },
+
+        special: {
+            main: '#5a786d'
+        }
+    }
 })
 
 ReactDOM.render(
